@@ -1,0 +1,96 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+}
+
+.shoe-section {
+  padding: 10px;
+}
+
+.shoe-card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.shoe-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5f5;
+  border: #ada7a7 1px solid;
+  border-radius: 5px;
+  padding: 20px 0;
+}
+
+.shoe-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.shoe-model-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #585858;
+}
+
+.shoe-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.shoe-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #848181;
+}
+
+.message-section {
+  padding: 10%;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.category {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+img {
+  width: 60%;
+}
+
+header {
+  padding: 10px;
+  background-color: #c4ddf4;
+  color: #585858;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  background-color: #585858;
+  padding: 10px;
+}
+
+.social-link {
+  color: #c4ddf4;
+}
+i {
+  font-size: 40px;
+}
